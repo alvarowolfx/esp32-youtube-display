@@ -4,6 +4,17 @@ Fetch data from an Youtube channel using Google API's. For ease of usage and dev
 
 ![Demo](./images/demo.jpg)
 
+## Setup Youtube API Key
+
+* Go to [Youtube Developers Portal](https://developers.google.com/youtube/v3/docs/).
+* Follow the guide "Calling the API"
+  * Go to [Developer Console](https://console.developers.google.com/)
+  * Go to Credentials 
+  * Click on "Create Crendential" then "API Key"
+  * Copy that API Key and click on "Restrict Key"
+  * Add "Youtube Data API v3" to the restriction list.
+  * At the top search bar, search for "Youtube Data API" and enable that API. 
+
 ## Setup and install micropython on ESP32
 
 #### Install tools and download micropython binary
