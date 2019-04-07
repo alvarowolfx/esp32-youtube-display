@@ -1,0 +1,5 @@
+jupyter_micropython_kernel
+.ipynb_checkpoints/
+*.bin
+rgb.py
+st7735.py
