@@ -4,6 +4,24 @@ Fetch data from an Youtube channel using Google API's. For ease of usage and dev
 
 ![Demo](./images/demo.jpg)
 
+## Hardware
+
+* ESP32 Wemos - [Link](https://www.aliexpress.com/item/1-Set-For-Wemos-MINI-D1-ESP32-WiFi-Bluetooth-For-Wemos-D1-Mini-Esp8266-Module-With/32834982479.html?spm=2114.search0104.3.15.4a9f33d4tNxNyc&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10068_10547_319_10059_10884_317_10548_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536,searchweb201603_6,ppcSwitch_0&algo_expid=87efb6a0-7015-4bc8-aeed-065f61c571d7-2&algo_pvid=87efb6a0-7015-4bc8-aeed-065f61c571d7&transAbTest=ae803_3)
+* ST7735R Display - [Link](https://www.aliexpress.com/item/1-8-inch-TFT-LCD-Display-Module-ST7735S-128x160-51-AVR-STM32-ARM-8-16-Bit/32834946843.html?spm=2114.search0104.8.23.16a1b67drvjGg3&transAbTest=ae803_3)
+* Jumpers
+
+## 3D Printed case
+
+I added the 3d models for the case that I made. I built it on Tinkercad.
+
+![Case](./images/case.png)
+
+# Instructions
+
+Follow the steps to build you own:
+
+* This is a working in progress, the wiring still missing.
+
 ## Setup Youtube API Key
 
 * Go to [Youtube Developers Portal](https://developers.google.com/youtube/v3/docs/).
