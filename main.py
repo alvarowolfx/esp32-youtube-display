@@ -37,7 +37,7 @@ def get_channel_stat():
     return stats
 
 
-def get_recent_videos(channel_id, results=10):
+def get_recent_videos(channel_id, results=6):
     search_url = base_url + '/search?part=snippet&type=video'
     search_url += '&channelId=' + channel_id
     search_url += '&maxResults=' + str(results)
@@ -142,8 +142,8 @@ def main():
 
 try:
     main()
-    sleep_ms(5 * 60 * 1000)
+    sleep_ms(30 * 60 * 1000)  # 30 minutes
     machine.reset()
 except:
-    sleep_ms(5 * 1000)
+    sleep_ms(5 * 1000)  # 5 seconds
     machine.reset()
